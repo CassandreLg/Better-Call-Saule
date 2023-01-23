@@ -1,0 +1,332 @@
+*{
+    font-family: 'Kreon', serif;
+}
+
+html{
+font-size:62.5%
+}
+
+h1{
+    color: #1e3799;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2{
+    color: #1e3799;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar {
+background-color: rgba(12, 36, 97, 0.9);
+position: fixed;
+z-index: 1;
+width: 100%;
+}
+
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    font-size: 1.7rem;
+}
+
+.nav-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* ACCUEIL  */
+
+.accueil{
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    /* L'image prend toute la hauteur du navigateur : */
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+    position: relative;
+}
+
+.accueil i{
+    font-size: 5rem;
+    color:#1e3799; 
+    position: absolute;
+    bottom: 50px;
+
+}
+
+.grostitre{
+    color: white;
+    background-color: #1e3799;
+    font-size: 9rem;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 8rem;
+    padding: 1rem;
+}
+
+.soustitre{
+    color: #1e3799;
+    background-color: white;
+    font-size: 4rem;
+    display: inline-block;
+    line-height: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* A PROPOS */
+
+.apropos{
+padding-top: 10rem;
+position: relative;
+text-align: center;
+}
+
+.apropos p{
+    font-size: 1.5rem;
+
+}
+
+.apropos i{
+    font-size: 6rem;
+    color: #1e3799;
+}
+
+.separateur {
+    border: solid 2px black;
+    width: 5%;
+    opacity: 1;
+    position: absolute;
+    left: 47%;
+}
+
+.presentation{
+    padding-bottom: 10rem;
+}
+
+.presentation p{
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.icones{
+    padding-bottom: 10rem;
+}
+
+
+/* CHIFFRES */
+
+.chiffres{
+    background-image: url("../img/2.jpg") ;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.chiffres i{
+    font-size: 6rem;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.chiffres p{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.chiffres .nombre{
+    font-size: 4rem;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+
+/* CARTE */
+
+.carte{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    font-size: 1.5rem;
+}
+
+.carte .presentation p{
+    line-height: 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.elementscarte ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.elementscarte img{
+    border: solid 5px #c4d7ff;
+    border-radius: 15px;
+}
+
+.elementscarte .titrecarte{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* MENUS */
+
+.menus{
+    background-image: url("../img/3.jpg");
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.menus h1{
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.menus h2{
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-align: start;
+}
+
+.menus .texte{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menus .separateur{
+    border-color: white;
+}
+
+.menus .presentation p{
+    line-height: 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.elementsmenu .image{
+    width: 100%;
+}
+
+.elementsmenu .image img{
+    width: 100%;
+    border: solid 5px white;
+    border-radius: 5px;
+}
+
+.elementsmenu .texte{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.menus .col{
+    padding-bottom: 5rem;
+}
+
+
+.bloc1{
+    padding: 1rem;
+    position: relative;
+}
+
+.prix{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #1e3799;
+    padding: 2rem;
+    border: solid 5px white;
+    border-radius: 50px;
+}
+
+.menus .prix{
+    color: white;
+    font-size: 3rem;
+}
+
+.bouton .btn{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #1e3799;
+    border: solid 1px #1e3799;
+}
+
+.bouton .btn:hover{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #0f1f5f;
+    border: solid 1px #0f1f5f;
+}
+
+/* RESERVATION */
+
+.reservation{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.reservation h2{
+    text-align: start;
+}
+
+.reservation .presentation p{
+    line-height: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.reservation .presentation{
+    padding-bottom: 5rem;
+}
+
+.elementsreservation{
+    font-size: 1.5rem;
+}
+
+.form-control{
+    font-size: 1.5rem;
+}
+
+.elementsreservation .col-md-5{
+    padding: 5rem;
+}
+
+.lorem{
+    padding-top: 2rem;
+}
+
+
+/* FOOTER */
+
+.footer{
+    background-color:#0f1f5f;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer #icones{
+    text-align: end;
+}
+
+.footer #icones i{
+    padding:0.5rem;
+}
